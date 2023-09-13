@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, span, id and class</title>
+  <style>
+    .card {
+      border: 1px solid #1e0f0f;
+      background: rgb(108, 108, 231);
+      padding:20px;
+      margin-bottom: 20px;
+    }
+
+    .enhanced {
+      color: purple;
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-header">
+    <h1>My Website</h1>
+      <p>A site about me</p>
+  </div>
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h2>About</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum odit architecto atque<span class="enhanced">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem quae accusantium sunt ullam minima.</span> consectetur sed incidunt ea quibusdam recusandae, voluptate veritatis amet. Fugiat odit totam doloribus beatae ad expedita iusto voluptate.</p>
+  </div>
+
+  <div id="contact" class="card">
+    <h3>Contact</h3>
+    <ul>
+      <li>Address: 1234 Jay st, Alabamba</li>
+      <li>Phone: (555)987-6543</li>
+      <li>Email: me@somethingcool.com</li>
+    </ul>
+  </div>
+  <div id="footer">
+    <a href="#">Home</a>
+    <p>Copyright &copy;</p>
+  </div>
+
+</body>
+</html>
